@@ -1,0 +1,38 @@
+.menu {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+  }
+
+.list-inline {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.list-inline li {
+  padding: 10px;
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.nav-black {
+  color: black;
+  font-size: 18px;
+}
+
+.nav-black:hover {
+  color: pink;
+}
+
+#logo-black {
+  color: black;
+  font-size: 40px;
+  font-weight: 800;
+  padding-left: 20px;
+}
